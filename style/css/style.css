@@ -1,18 +1,18 @@
 @font-face {
 	font-family: 'Mulish';
-	src: url('../fonts/Mulish-Regular.eot');
-	src: local('☺'), url('../fonts/Mulish-Regular.woff') format('woff'), 
+	src: url('../../fonts/Mulish-Regular.eot');
+	src: local('☺'), url('../../fonts/Mulish-Regular.woff') format('woff'), 
         url('../../fonts/Mulish-Regular.ttf') format('truetype'), 
-        url('fonts/Mulish-Regular.svg') format('svg');
+        url('../../fonts/Mulish-Regular.svg') format('svg');
 	font-weight: 400px;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'DM Sans';
-	src: url('../fonts/DMSans-Bold.eot');
-	src: local('☺'), url('../fonts/DMSans-Bold.woff') format('woff'),
-        url('../fonts/DMSans-Bold.ttf') format('truetype'), 
-        url('../fonts/DMSans-Bold.svg') format('svg');
+	src: url('../../fonts/DMSans-Bold.eot');
+	src: local('☺'), url('../../fonts/DMSans-Bold.woff') format('woff'),
+        url('../../fonts/DMSans-Bold.ttf') format('truetype'), 
+        url('../../fonts/DMSans-Bold.svg') format('svg');
 	font-weight: 700px;
 	font-style: bold;
 }
@@ -21,7 +21,8 @@
     box-sizing: border-box;
 }
 .wrapper {
-    width: 1306px;
+    width: 1115px;
+    margin: 0 auto;
 }
 .nav {
     display: flex;
@@ -213,92 +214,5 @@
 } 
 .price-box {
     width: 1111px;
-    display: flex;
-}
-.price-box-1 {
-    width: 330px;
-    height: 441px;
-    background: #F8F8F8;
-    border-radius: 10px;
-}
-.price-box-2 {
-    width: 376px;
-    height: 473px;
-    background: #FF7143;
-    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
-    border-radius: 10px;
-}
-.price-box-h4-2 {
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: -0.562737px;
-    color: rgba(255, 255, 255, 0.7);
-}
-.price-box-h2-2 {
-
-    height: 56px;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 56px;
-    text-align: center;
-    letter-spacing: -1.03448px;
-    color: #FFFFFF;
-}
-.price-box-3 {
-    width: 330px;
-    height: 441px;
-    background: #F8F8F8;
-    border-radius: 10px;
-}
-.price-box-h4 {
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: -0.562737px;
-    color: #696871
-}
-.price-text {
-    width: 118px;
-    font-family: Mulish;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 50px;
-    text-align: center;
-    letter-spacing: -0.531474px;
-    color: #696871;
-}
-.price-box-h2 {
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 56px;
-    text-align: center;
-    letter-spacing: -1.03448px;
-    color: #1D293F;
-}
-.price-btn {
-    width: 285px;
-    height: 60px;
-    background: #FFFFFF;
-    border: 1px solid #EAE9F2;
-    border-radius: 10px;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 22px;
-    text-align: center;
-    letter-spacing: -0.531474px;
-    color: #5454D4;
+    height: 695px;
 }
