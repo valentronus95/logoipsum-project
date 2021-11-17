@@ -30,6 +30,10 @@
     margin-top: 44px;
     margin-bottom: 100px;
 }
+.nav img {
+    cursor: pointer;
+    margin: 0;
+}
 .menu > ul {
     display: flex;
     list-style-type: none;
@@ -52,6 +56,13 @@
     color: white;
     font-family: DM Sans;
     font-size: 17px;
+    margin: 0;
+}
+.nav-btn:hover {
+    background: #9F3919;
+}
+.nav-btn:active {
+    opacity: 50%;
 }
 .block-1 {
     width: 1146px;
@@ -103,6 +114,12 @@
     padding: 17px;
     bottom: 90px;
 }
+.arrow-down:hover {
+    transform: scale(1.1);
+}
+.arrow-down:active {
+    opacity: 75%;
+}
 .block-1-opt {
     display: flex;
 }
@@ -153,19 +170,22 @@
 }
 .metrics-x {
     margin-left: 61px;
-} h2 {
+} 
+.metrics-x h2 {
     font-family: DM Sans;
     font-weight: bold;
     font-size: 50px;
     line-height: 57px;
     color: #19191B;
-} p {
+}
+.metrics-x p {
     width: 459px;
     font-family: Mulish;
     font-size: 20px;
     line-height: 30px;
     color: #696871;
-} a {
+}
+.metrics-x a {
     font-family: DM Sans;
     font-style: normal;
     font-weight: bold;
@@ -176,7 +196,7 @@
 }
 .metrics-img {
     position: absolute;
-    left: 53%;
+    left: 59%;
 }
 .metrics-xs {
     margin-top: 180px;
@@ -213,6 +233,193 @@
     color: #19191B;
 } 
 .price-box {
-    width: 1111px;
     height: 695px;
+    margin-bottom: 174px;
+}
+.future-prod {
+    display: flex;
+    align-items: center;
+    margin-bottom: 98px;
+}
+.price-plan {
+    width: 523px;
+    margin-right: 250px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;letter-spacing: -1.87579px;
+    color: #19191B;
+}
+.price-in-btn {
+    display: flex;
+    width: 344px;
+    height: 65px;
+    background: #F7F7FB;
+    border-radius: 10px;
+    padding: 5px;
+}
+.price-btn-right {
+    width: 160px;
+    height: 55px;
+    border: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;text-align: center;
+    letter-spacing: -0.500211px;
+    color: black;
+    background: none;
+    cursor: pointer;
+}
+.price-btn-right:hover {
+    border-radius: 10px 0px 0px 10px;
+    background: #5454D4;
+    color: white;
+}
+.price-btn-left {
+    width: 160px;
+    height: 55px;
+    border: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;text-align: center;
+    letter-spacing: -0.500211px;
+    color: #19191B;
+    background: none;
+    cursor: pointer;
+}
+.price-btn-left:hover {
+    background: #5454D4;
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+.container-full-bg {
+    display: flex;
+}
+.container-block-bg {
+    width: 330px;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F8F8F8;
+    border-radius: 10px;    
+}
+.container-block-bg:hover {
+    transform: scale(1.1);
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    border-radius: 10px;
+}
+.container-block-bg:hover .price-h4  {
+    color: white;
+}
+.container-block-bg:hover .price-1-h2 {
+    color: white;
+}
+.container-block-bg:hover .priceBlock3-h2 {
+    color: white;
+}
+.container-block-bg:hover p {
+    color: white;
+}
+.container-block-bg:hover button {
+    background: #9F3919;
+    border-radius: 10px;
+    border: none;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+}
+.container-block-bg:active button {
+    opacity: 50%;
+}
+.container-block-bg p {
+    width: 136px;
+    height: 150px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
+.price-h4 {
+    margin-top: 34px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;text-align: center;
+    letter-spacing: -0.562737px;
+    color: #696871;
+}
+.price-1-h2 {
+    margin-top: 22px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;text-align: center;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+}
+.priceBtnOne {
+    width: 285px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+    cursor: pointer;
+}
+.priceBlock2-h2 {
+    width: 200px;
+    height: 56px;
+}
+.priceBlock3-h2 {
+    height: 56px;
+    margin-top: 22px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;text-align: center;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+}
+.priceBlock3-h2 b {
+    font-size: 20px;
+}
+.paragraphBlockOne {
+    width: 118px;
+    height: 150px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 50px;text-align: center;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
+.paragrahpBlockTwo {
+    width: 131px;
 }
