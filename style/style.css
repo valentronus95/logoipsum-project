@@ -1,0 +1,304 @@
+@font-face {
+	font-family: 'Mulish';
+	src: url('../fonts/Mulish-Regular.eot');
+	src: local('☺'), url('../fonts/Mulish-Regular.woff') format('woff'), 
+        url('../../fonts/Mulish-Regular.ttf') format('truetype'), 
+        url('fonts/Mulish-Regular.svg') format('svg');
+	font-weight: 400px;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DM Sans';
+	src: url('../fonts/DMSans-Bold.eot');
+	src: local('☺'), url('../fonts/DMSans-Bold.woff') format('woff'),
+        url('../fonts/DMSans-Bold.ttf') format('truetype'), 
+        url('../fonts/DMSans-Bold.svg') format('svg');
+	font-weight: 700px;
+	font-style: bold;
+}
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 1306px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 100px;
+}
+.menu > ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+.menu > ul > li a {
+    padding: 0 49px 0 0;
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 15px;
+    color: #696871;
+}
+.nav-btn {
+    width: 211px;
+    height: 60px;
+    background: #FF7143;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-family: DM Sans;
+    font-size: 17px;
+}
+.block-1 {
+    width: 1146px;
+    height: 644px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.block-1 p {
+    width: 459px;
+    height: 90px;
+    font-family: Mulish;
+    font-size: 20px;
+    color: #696871;
+    margin-bottom: 9%;
+}
+.block-1-h1 {
+    font-family: DM Sans;
+    width: 462px;
+    height: 231px;
+    font-size: 80px;
+    margin-top: 92px;
+    line-height: 77px;
+}
+.block-1-btn {
+    width: 211px;
+    height: 60px;
+    position: relative;
+    right: 35%;
+    bottom: 90px;
+    background: #5454D4;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: DM Sans;
+    font-size: 17px;
+    color: #FFFFFF;
+    border: none;
+}
+.arrow-down {
+    position: relative;
+    right: 32%;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 17px;
+    bottom: 90px;
+}
+.block-1-opt {
+    display: flex;
+}
+.hero3D {
+    left: 50%;
+    position: absolute;
+}
+.partners {
+    display: flex;
+    margin-top: 100px;
+}
+.subscription {
+    margin-top: 160px;
+    display: flex;
+}
+.subscription h2 {
+    font-family: DM Sans;
+    font-size: 50px;
+    line-height: 57px;
+    color: #19191B;
+} p {
+    font-family: Mulish;
+    font-size: 20px;
+    line-height: 30px;      
+    color: #696871;
+} a {
+    font-family: DM Sans;
+    font-size: 17px;
+    line-height: 22px;
+    color: #5454D4;
+    text-decoration: none;
+}
+.content-img {
+    margin: 0 38px 0 70px;
+}
+.subscription-text {
+    margin-top: 125px;
+    width: 481px;
+    height: 229px;
+} h2 {
+    margin-bottom: 30px;
+} p {
+    margin-bottom: 30px;
+}
+.metrics {
+    display: flex;
+    margin-top: 85px;
+}
+.metrics-x {
+    margin-left: 61px;
+} h2 {
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    color: #19191B;
+} p {
+    width: 459px;
+    font-family: Mulish;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+} a {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+}
+.metrics-img {
+    position: absolute;
+    left: 53%;
+}
+.metrics-xs {
+    margin-top: 180px;
+}
+.info-w {
+    width: 1111px;
+    margin-top: 255px;
+    display: flex;
+    margin-bottom: 150px;
+    margin-right: 200px;
+    align-items: flex-end;
+} 
+.info-w img {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 85px;
+}
+.info-p p {
+    width: 307px;
+    font-family: Mulish;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.500211px;
+    color: #696871;
+} 
+.info-p h4 {
+    margin-bottom: 20px;
+    font-family: DM Sans;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.750316px;
+    color: #19191B;
+} 
+.price-box {
+    width: 1111px;
+    display: flex;
+}
+.price-box-1 {
+    width: 330px;
+    height: 441px;
+    background: #F8F8F8;
+    border-radius: 10px;
+}
+.price-box-2 {
+    width: 376px;
+    height: 473px;
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    border-radius: 10px;
+}
+.price-box-h4-2 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.price-box-h2-2 {
+
+    height: 56px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #FFFFFF;
+}
+.price-box-3 {
+    width: 330px;
+    height: 441px;
+    background: #F8F8F8;
+    border-radius: 10px;
+}
+.price-box-h4 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.562737px;
+    color: #696871
+}
+.price-text {
+    width: 118px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #696871;
+}
+.price-box-h2 {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -1.03448px;
+    color: #1D293F;
+}
+.price-btn {
+    width: 285px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #EAE9F2;
+    border-radius: 10px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.531474px;
+    color: #5454D4;
+}
